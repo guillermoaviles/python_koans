@@ -70,7 +70,7 @@ class AboutLists(Koan):
         self.assertEqual(['you', 'shall', 'not', 'pass'], knight)
 
         knight.insert(0, 'Arthur')
-        self.assertEqual(__, knight)
+        self.assertEqual(['Arthur', 'you', 'shall', 'not', 'pass'], knight)
 
     def test_popping_lists(self):
         stack = [10, 20, 30, 40]
