@@ -67,7 +67,7 @@ class AboutLists(Koan):
     def test_insertions(self):
         knight = ['you', 'shall', 'pass']
         knight.insert(2, 'not')
-        self.assertEqual(__, knight)
+        self.assertEqual(['you', 'shall', 'not', 'pass'], knight)
 
         knight.insert(0, 'Arthur')
         self.assertEqual(__, knight)
